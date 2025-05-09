@@ -71,7 +71,7 @@ function Cv() {
                     </ul>
                     <ul class="education-list">
                         <li>
-                            <h4>Estudios segundarios</h4>
+                            <h4>Estudios secundarios</h4>
                             <span class="date">Institución Educativa
                                 Niño Jesús de Praga 2008-2011
                             </span>
@@ -81,10 +81,84 @@ function Cv() {
                             </span>
                         </li>
                     </ul>
-
+                </section>
+<section class="education" aria-labelledby="education-heading">
+                    <h3 id="education-heading">Talleres y Cursos</h3>
+                    <ul class="education-list">
+                        <li>
+                            <h4>Técnico en sistemas y mantenimiento de computadores.</h4>
+                            <span class="date">SENA (convenio institución Compuestudio) 9 meses</span>
+                            <p>Finalización: Noviembre del 2014</p>
+                        </li>
+                    </ul>
+                    <ul class="education-list">
+                        <li>
+                            <h4>Academia de Ingles American School Way.</h4>
+                            <span class="date">A1 A2 B1 3 años y medio
+                            </span>
+                            <span class="date">Finalización: Septiembre 20 del 2020
+                            </span>
+                        </li>
+                    </ul>
+                </section>
+                <section class="education" aria-labelledby="education-heading">
+                    <h3 id="education-heading">Experiencia Laboral</h3>
+                    <ul class="education-list">
+                        <li>
+                            <h4>Tamales Exquisitos</h4>
+                            <span class="date">Mensajeria (oficios barios, surtir, vender y servicio al cliente.)</span>
+                            <p>Jefe Inmediato:José Jaime Jaramillo</p>
+                            <p>Teléfono:276 16 03- 270 05 76- 331 15 96</p>
+                            <p>Tiempo : 1mes</p>
+                            <p>Motivo de retiro:Por decisión unilateral (empleado o empleador) con justa causa.</p>
+                        </li>
+                    </ul>
+                    <ul class="education-list">
+                        <li>
+                            <h4>Restaurante la 39</h4>
+                            <span class="date">Mesero (oficios barios, surtir, vender y servicio al cliente.)
+                            </span>
+                            <p>Jefe inmediato:Alexandra Velez</p>
+                            <p>Teléfono:4913042</p>
+                            <p>Tiempo : 1 año</p>
+                            <p>Motivo de retiro:Renuncia.</p>
+                        </li>
+                    </ul>
+                    <ul class="education-list">
+                        <li>
+                            <h4>Supermercado el BOOM</h4>
+                            <span class="date">Mesero (oficios barios, surtir, vender y servicio al cliente.)Servicio al cliente, oficios barios, surtir, vender, recibir mercancía de fruver y mercar para los clientes de domicilios.
+                            </span>
+                            <p>Jefe inmediato: Adriana Maria Escobar</p>
+                            <p>Teléfono:3623322</p>
+                            <p>Tiempo : 5 meses</p>
+                            <p>Motivo de retiro:Renuncia.</p>
+                        </li>
+                    </ul>
+                    <ul class="education-list">
+                        <li>
+                            <h4>Su Gran Fruver</h4>
+                            <span class="date">Supervisor y conductorconductor de una NHR Reward Euro trasportando las                                                                      frutas y verduras, manejar dinero, controlar la base de datos, manejar y organizar el personal,  surtir, vender y servicio al cliente..
+                            </span>
+                            <p>Jefe inmediato: Luis Fernando Alcaraz</p>
+                            <p>Teléfono:3108221936</p>
+                            <p>Tiempo : 1 año</p>
+                            <p>Motivo de retiro:Culminación de la empresa</p>
+                        </li>
+                    </ul>
+                    <ul class="education-list">
+                        <li>
+                            <h4>La Curva Del Gordo</h4>
+                            <span class="date">conductor, Auxiliar cocina, Mesero, Cajero, Supervisor (Supervisor, estar pendiente del inventario, funciones indebidas de los empleados, manejar proveedores, manejar altas sumas de dinero y reportar todo a mis superiores.).                                                                      frutas y verduras, manejar dinero, controlar la base de datos, manejar y organizar el personal,  surtir, vender y servicio al cliente..
+                            </span>
+                            <p>Jefe inmediato: Sebastian Toro Botero (dueño)</p>
+                            <p>Teléfono:3108319189</p>
+                            <p>Tiempo : 7 años</p>
+                            <p>Motivo de retiro: Renuncia.</p>
+                        </li>
+                    </ul>
 
                 </section>
-
                 <section class="languages" aria-labelledby="languages-heading">
                     <h3 id="languages-heading">Idiomas</h3>
                     <ul class="languages-list">
