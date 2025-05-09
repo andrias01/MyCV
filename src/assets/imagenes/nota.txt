@@ -1,0 +1,6 @@
+,
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+
+    esto se debe pegar en el script de package.json
+    para cargar el build en dist
