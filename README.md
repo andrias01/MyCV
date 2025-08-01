@@ -1,12 +1,37 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📄 Mi CV - Página Web
 
-Currently, two official plugins are available:
+Este repositorio contiene mi **Currículum Vitae** desarrollado como una **página web interactiva** usando **React** y desplegado en **Netlify**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Ver mi CV en línea:** [https://andresvelezcv.netlify.app/](https://andresvelezcv.netlify.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tecnologías utilizadas
+- ⚛️ **React** – Para la construcción de la interfaz.
+- 🎨 **CSS / Tailwind (si aplica)** – Para los estilos y diseño responsivo.
+- 🌐 **Netlify** – Para el despliegue y hosting.
+
+---
+
+## 📂 Estructura del proyecto
+
+---
+
+## 📦 Instalación y ejecución local
+Si quieres ejecutar mi cv en tu máquina:
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/andrias01/MyCV.git
+
+# Entrar en la carpeta
+cd Donde_se_creo
+
+# Instalar dependencias
+npm install
+
+# Ejecutar en modo desarrollo
+npm run dev
+
