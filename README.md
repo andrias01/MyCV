@@ -15,10 +15,6 @@ Este repositorio contiene mi **Currículum Vitae** desarrollado como una **pági
 
 ---
 
-## 📂 Estructura del proyecto
-
----
-
 ## 📦 Instalación y ejecución local
 Si quieres ejecutar mi cv en tu máquina:
 

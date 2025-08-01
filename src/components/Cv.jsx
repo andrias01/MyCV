@@ -37,6 +37,7 @@ function Cv() {
                     </p>
                 </section>
 
+
                 <section class="personal-info" aria-labelledby="personal-info-heading">
                     <h3 id="personal-info-heading">Datos Personales</h3>
                     <ul>
@@ -44,61 +45,6 @@ function Cv() {
                         <li><strong>Correo electrónico:</strong> <span>andresjobpk@gmail.com</span></li>
                         <li><strong>Teléfono:</strong> <span>+57 305 747 7830</span></li>
                         <li><strong>Dirección:</strong> <span>Guarne-Antioquia</span></li>
-                    </ul>
-                </section>
-                <section class="skills" aria-labelledby="skills-heading">
-                    <h3 id="skills-heading">Competencias</h3>
-                    <ul class="skills-list">
-                        <li>JavaScript (ES6+)</li>
-                        <li>Java</li>
-                        <li>PostgreSQL</li>
-                        <li>React.js</li>
-                        <li>MongoDB</li>
-                        <li>HTML &amp; CSS (Sass)</li>
-                        <li>Git y GitHub</li>
-                        <li>Agile y SCRUM</li>
-                    </ul>
-                </section>
-
-                <section class="education" aria-labelledby="education-heading">
-                    <h3 id="education-heading">Formación</h3>
-                    <ul class="education-list">
-                        <li>
-                            <h4>Ingeniería en Sistemas</h4>
-                            <span class="date">Universidad Católica Del Oriente, 2021 - 2025</span>
-                            <p>Estudiante aun de la carrera, semestre 7.</p>
-                        </li>
-                    </ul>
-                    <ul class="education-list">
-                        <li>
-                            <h4>Estudios secundarios</h4>
-                            <span class="date">Institución Educativa
-                                Niño Jesús de Praga 2008-2011
-                            </span>
-                            <span class="date">Institución Educativa
-                                Normal Superior de Medellín
-                                2012-2013
-                            </span>
-                        </li>
-                    </ul>
-                </section>
-<section class="education" aria-labelledby="education-heading">
-                    <h3 id="education-heading">Talleres y Cursos</h3>
-                    <ul class="education-list">
-                        <li>
-                            <h4>Técnico en sistemas y mantenimiento de computadores.</h4>
-                            <span class="date">SENA (convenio institución Compuestudio) 9 meses</span>
-                            <p>Finalización: Noviembre del 2014</p>
-                        </li>
-                    </ul>
-                    <ul class="education-list">
-                        <li>
-                            <h4>Academia de Ingles American School Way.</h4>
-                            <span class="date">A1 A2 B1 3 años y medio
-                            </span>
-                            <span class="date">Finalización: Septiembre 20 del 2020
-                            </span>
-                        </li>
                     </ul>
                 </section>
                 <section class="education" aria-labelledby="education-heading">
@@ -159,13 +105,73 @@ function Cv() {
                     </ul>
 
                 </section>
-                <section class="languages" aria-labelledby="languages-heading">
-                    <h3 id="languages-heading">Idiomas</h3>
-                    <ul class="languages-list">
-                        <li>Español - Nativo</li>
-                        <li>Inglés - Intermedio (B1)</li>
+                <section class="skills" aria-labelledby="skills-heading">
+                    <h3 id="skills-heading">Competencias</h3>
+                    <ul class="skills-list">
+                        <li>JavaScript (ES6+)</li>
+                        <li>Java</li>
+                        <li>PostgreSQL</li>
+                        <li>React.js</li>
+                        <li>MongoDB</li>
+                        <li>HTML &amp; CSS (Sass)</li>
+                        <li>Git y GitHub</li>
+                        <li>Agile y SCRUM</li>
                     </ul>
+                    <section class="education" aria-labelledby="education-heading">
+                        <h3 id="education-heading">Formación</h3>
+                        <ul class="education-list">
+                            <li>
+                                <h4>Ingeniería en Sistemas</h4>
+                                <span class="date">Universidad Católica Del Oriente, 2021 - 2025</span>
+                                <p>Estudiante aun de la carrera, semestre 7.</p>
+                            </li>
+                        </ul>
+                        <ul class="education-list">
+                            <li>
+                                <h4>Estudios secundarios</h4>
+                                <span class="date">Institución Educativa
+                                    Niño Jesús de Praga 2008-2011
+                                </span>
+                                <span class="date">Institución Educativa
+                                    Normal Superior de Medellín
+                                    2012-2013
+                                </span>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="education" aria-labelledby="education-heading">
+                        <h3 id="education-heading">Talleres y Cursos</h3>
+                        <ul class="education-list">
+                            <li>
+                                <h4>Técnico en sistemas y mantenimiento de computadores.</h4>
+                                <span class="date">SENA (convenio institución Compuestudio) 9 meses</span>
+                                <p>Finalización: Noviembre del 2014</p>
+                            </li>
+                        </ul>
+                        <ul class="education-list">
+                            <li>
+                                <h4>Academia de Ingles American School Way.</h4>
+                                <span class="date">A1 A2 B1 3 años y medio
+                                </span>
+                                <span class="date">Finalización: Septiembre 20 del 2020
+                                </span>
+                            </li>
+                        </ul>
+                        <section class="languages" aria-labelledby="languages-heading">
+                            <h3 id="languages-heading">Idiomas</h3>
+                            <ul class="languages-list">
+                                <li>Español - Nativo</li>
+                                <li>Inglés - Intermedio (B1)</li>
+                            </ul>
+                        </section>
+                    </section>
+
                 </section>
+
+
+
+
+
 
             </main>
         </div>
