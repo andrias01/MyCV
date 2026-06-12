@@ -1,0 +1,171 @@
+\documentclass[10.5pt,a4paper]{article}
+
+% ---------- Paquetes ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage[margin=1.8cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{parskip}
+
+% ---------- Colores ----------
+\definecolor{primario}{HTML}{1F4E79}
+\definecolor{gris}{HTML}{555555}
+
+% ---------- Hyperlinks ----------
+\hypersetup{
+    colorlinks=true,
+    urlcolor=primario,
+    linkcolor=primario
+}
+
+% ---------- Espaciado de párrafos ----------
+\setlength{\parindent}{0pt}
+
+% ---------- Estilo de secciones ----------
+\titleformat{\section}
+  {\large\bfseries\color{primario}}
+  {}{0em}{}
+  [\titlerule]
+\titlespacing{\section}{0pt}{10pt}{6pt}
+
+\titleformat{\subsection}
+  {\bfseries}
+  {}{0em}{}
+\titlespacing{\subsection}{0pt}{8pt}{2pt}
+
+% ---------- Listas ----------
+\setlist[itemize]{leftmargin=1.4em, itemsep=1pt, topsep=2pt, parsep=0pt}
+
+% ---------- Comando para encabezado de experiencia ----------
+\newcommand{\experiencia}[4]{%
+  \textbf{#1} \hfill \textit{#3}\\
+  \textit{#2} \hfill #4
+}
+
+\newcommand{\fechaSubseccion}[2]{%
+  \textbf{#1} \hfill \textit{#2}
+}
+
+\pagestyle{empty}
+
+\begin{document}
+
+% ================= ENCABEZADO =================
+\begin{center}
+    {\Huge \bfseries Andrés Felipe Vélez Alcaraz}\\[4pt]
+    {\large \color{gris} Analista de Datos $\mid$ Desarrollador Backend $\mid$ Ingeniería de Sistemas}\\[6pt]
+    \textbf{CC: 1017245136} $\mid$ Medellín, Antioquia, Colombia\\[2pt]
+    \href{mailto:andresjobpk@gmail.com}{andresjobpk@gmail.com} \quad $\mid$ \quad
+    Tel: +57 305 747 7830\\[2pt]
+    \href{https://github.com/andrias01}{github.com/andrias01} \quad $\mid$ \quad
+    \href{https://linkedin.com/in/andres-velez}{linkedin.com/in/andres-velez} \quad $\mid$ \quad
+    \href{https://platzi.com/p/Andrias01}{platzi.com/p/Andrias01}
+\end{center}
+
+% ================= PERFIL PROFESIONAL =================
+\section*{Perfil Profesional}
+Estudiante de Ingeniería de Sistemas (7.\textsuperscript{o} semestre) con experiencia en desarrollo backend (Java, Spring Boot, Python, AWS), análisis de datos y automatización de procesos. Habilidad comprobada para diseñar soluciones tecnológicas que optimizan operaciones y apoyan la toma de decisiones. Certificado en Python, Java, Git, AWS y fundamentos de Ingeniería de Software. Disponible de tiempo completo de lunes a viernes, con vehículo propio para desplazamiento a Medellín y Oriente Antioqueño.
+
+% ================= COMPETENCIAS CLAVE =================
+\section*{Competencias Clave}
+\begin{itemize}
+    \item Análisis de datos e indicadores de desempeño (KPIs)
+    \item Desarrollo de tableros de control y reportes con SQL y herramientas de visualización
+    \item Automatización y optimización de procesos operativos
+    \item Modelado y gestión de bases de datos relacionales (PostgreSQL, MySQL)
+    \item Desarrollo backend: Java, Spring Boot, Python, Node.js, TypeScript
+    \item Cloud Computing: AWS (EC2, S3, RDS, Lambda, API Gateway)
+    \item Metodologías ágiles (Scrum), control de versiones (Git, GitHub)
+    \item Diagnóstico de necesidades de mejora en procesos y sistemas
+    \item Gestión comercial, servicio al cliente y reporte de resultados a gerencia
+\end{itemize}
+
+% ================= EXPERIENCIA LABORAL =================
+\section*{Experiencia Laboral}
+
+\experiencia{Desarrollador Backend Junior -- Analítica y Automatización}{Proyecto Independiente (Restaurante)}{Enero 2024 -- Presente}{Antioquia, Colombia (Remoto) $\mid$ Freelance}
+\begin{itemize}
+    \item Diseñé, desarrollé y desplegué un sistema de atención automatizada (chatbot) que atiende más de 100 consultas mensuales de clientes reales en producción continua.
+    \item Integré API de ChatGPT (GPT-3.5 Turbo) para procesamiento de lenguaje natural y Google Sheets API como fuente de datos dinámica, eliminando redespliegues y reduciendo el tiempo de actualización de contenidos de horas a cero minutos.
+    \item Automaticé la gestión de datos del negocio (menú, horarios, precios) mediante integración en tiempo real, apoyando la toma de decisiones operativas del establecimiento.
+    \item Desarrollé el backend con Node.js y Express; desplegado en cloud con disponibilidad del 99\%+ de forma ininterrumpida.
+    \item Documenté la arquitectura del sistema para facilitar la escalabilidad a múltiples sucursales.
+\end{itemize}
+
+\vspace{4pt}
+\experiencia{Supervisor de Operaciones y Gestión Comercial}{Restaurante La Curva Del Gordo}{7 años -- Actualmente laborando}{Antioquia, Colombia $\mid$ Presencial}
+
+\textit{Jefe inmediato: Sebastián Toro Botero (Propietario) $\mid$ Tel: 310 831 9189}
+\begin{itemize}
+    \item Controlé y analicé indicadores operativos diarios (ventas, inventario, costos), reportando resultados y planes de mejora directamente a la gerencia.
+    \item Administré y cuadré caja diariamente, manejando altas sumas de dinero con precisión y generando reportes financieros para la toma de decisiones del propietario.
+    \item Gestioné y actualicé la base de datos del restaurante (productos, precios, clientes), apoyando decisiones comerciales basadas en datos.
+    \item Supervisé y coordiné equipo de trabajo de más de 5 personas (cocina, meseros, cajeros, auxiliares), asignando turnos y asegurando el cumplimiento de estándares de calidad.
+    \item Controlé inventarios de frutas, verduras e insumos, minimizando pérdidas por caducidad y garantizando el abastecimiento continuo del establecimiento.
+    \item Gestioné proveedores: negociación de precios, pedidos, recepción y verificación de mercancía.
+    \item Brindé atención personalizada a clientes, impulsando la fidelización y el crecimiento de ventas del negocio.
+\end{itemize}
+
+\vspace{4pt}
+\experiencia{Desarrollador Backend -- Proyecto Institucional (REDIS)}{Universidad Católica de Oriente}{2023}{Rionegro, Antioquia $\mid$ Presencial}
+\begin{itemize}
+    \item Diseñé e implementé base de datos relacional normalizada en MySQL para gestión institucional, aplicando normalización 3FN y reduciendo redundancia de datos.
+    \item Desarrollé módulos backend en Java con principios SOLID y Clean Code en equipo de 4 personas, manteniendo más del 60\% de cobertura de pruebas con JUnit y Mockito.
+    \item Colaboré con Git y GitHub para control de versiones, gestión de pull requests y revisión de código.
+\end{itemize}
+
+% ================= FORMACIÓN ACADÉMICA =================
+\section*{Formación Académica}
+\fechaSubseccion{Ingeniería de Sistemas $\mid$ Universidad Católica de Oriente}{2021 -- En curso (7.\textsuperscript{o} semestre)}\\
+\textit{Rionegro, Antioquia $\mid$ Presencial}
+
+Cursos relevantes: Programación Orientada a Objetos, Estructuras de Datos y Algoritmos, Bases de Datos, Arquitectura de Software, Metodologías Ágiles.
+
+% ================= CERTIFICACIONES =================
+\section*{Certificaciones -- Platzi (2026)}
+\begin{itemize}
+    \item Fundamentos de Ingeniería de Software
+    \item Fundamentos de Python
+    \item Curso de Java
+    \item Git y GitHub
+    \item Introducción a AWS: Cómputo, Almacenamiento y Bases de Datos
+    \item Introducción a AWS: Fundamentos del Cloud Computing
+    \item Introducción al Desarrollo Backend
+\end{itemize}
+
+% ================= HABILIDADES TÉCNICAS =================
+\section*{Habilidades Técnicas}
+\begin{tabularx}{\linewidth}{@{}>{\bfseries}l X@{}}
+Lenguajes & Java (Avanzado), Python, JavaScript, TypeScript, Node.js, Express \\[3pt]
+Frameworks & Spring Boot, Spring Security, Spring Data JPA, Hibernate, Angular, React (básico) \\[3pt]
+Bases de Datos & PostgreSQL, MySQL, AWS DynamoDB -- diseño relacional, SQL avanzado, optimización \\[3pt]
+Cloud y DevOps & AWS (EC2, S3, RDS, Lambda, API Gateway), Docker, GitHub Actions (CI/CD) \\[3pt]
+Analítica y BI & SQL para análisis de datos, dashboards, integración de APIs, automatización de reportes \\[3pt]
+Arquitectura & Microservicios, RESTful APIs, Hexagonal, MVC, SOLID, Clean Code \\[3pt]
+Herramientas & Git, GitHub, IntelliJ IDEA, VS Code, Azure DevOps, Agile/Scrum, Power BI (en aprendizaje) \\[3pt]
+En aprendizaje & Kafka, Kubernetes, Machine Learning, modelos estadísticos, Power BI avanzado \\
+\end{tabularx}
+
+% ================= IDIOMAS =================
+\section*{Idiomas}
+\begin{itemize}
+    \item \textbf{Español:} Nativo
+    \item \textbf{Inglés:} B1 -- Lectura y escritura técnica fluida (documentación, lenguajes de programación)
+\end{itemize}
+
+% ================= INFORMACIÓN ADICIONAL =================
+\section*{Información Adicional}
+\begin{itemize}
+    \item Disponibilidad laboral de tiempo completo, lunes a viernes.
+    \item Mayor de edad.
+    \item Vehículo propio -- disponible para desplazarse a Medellín, Rionegro y el Oriente Antioqueño.
+    \item Pasión por la tecnología, el análisis de datos y el desarrollo de soluciones que optimicen la toma de decisiones.
+\end{itemize}
+
+\end{document}
