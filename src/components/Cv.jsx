@@ -53,7 +53,7 @@ function Cv() {
                className="hero-link github" aria-label="Perfil de GitHub">
               <i className="fab fa-github"></i> GitHub
             </a>
-            <a href="https://linkedin.com/in/andres-velez" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.linkedin.com/in/andr%C3%A9s-felipe-v%C3%A9lez-alcaraz-264519292/" target="_blank" rel="noopener noreferrer"
                className="hero-link linkedin" aria-label="Perfil de LinkedIn">
               <i className="fab fa-linkedin-in"></i> LinkedIn
             </a>
@@ -61,8 +61,8 @@ function Cv() {
                className="hero-link platzi" aria-label="Perfil de Platzi">
               <i className="fas fa-graduation-cap"></i> Platzi
             </a>
-            <a href="mailto:andresjobpk@gmail.com"
-               className="hero-link email" aria-label="Enviar correo">
+            <a href="https://mail.google.com/mail/?view=cm&to=andresjobpk@gmail.com" target="_blank" rel="noopener noreferrer"
+               className="hero-link email" aria-label="Enviar correo por Gmail">
               <i className="fas fa-paper-plane"></i> Correo
             </a>
           </nav>
